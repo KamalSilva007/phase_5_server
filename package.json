@@ -1,0 +1,33 @@
+{
+  "name": "api-server-starter",
+  "version": "1.0.0",
+  "description": "A lightweight starter kit for building a Node-based API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "api-server",
+    "express",
+    "starter",
+    "kit"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-easy-zip": "^1.1.5",
+    "fs-extra": "^11.1.0",
+    "shelljs": "^0.8.5",
+    "unzipper": "^0.10.11",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  }
+}
